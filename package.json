@@ -9,11 +9,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cross-env": "^6.0.3",
-    "jquery": "2.2.4",
-    "jquery-ui": "1.12.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "7.6.2",
     "@babel/preset-env": "7.6.2",
@@ -23,6 +19,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.0.4",
     "core-js": "^3.2.1",
+    "cross-env": "^6.0.3",
     "css-loader": "3.2.0",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "3.2.0",
