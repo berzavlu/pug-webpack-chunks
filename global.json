@@ -1,0 +1,33 @@
+{
+  "title": "hola",
+  "footer": [
+    {
+      "title": "Menu 1"
+    },
+    {
+      "title": "Menu 2"
+    },
+    {
+      "title": "Menu 3"
+    },
+    {
+      "title": "Menu 4"
+    }
+  ],
+  "sampleData": {
+    "users": [
+      {
+        "name": "luis"
+      },
+      {
+        "name": "eduardo"
+      },
+      {
+        "name": "berrospi"
+      },
+      {
+        "name": "zavaleta"
+      }
+    ]
+  }
+}

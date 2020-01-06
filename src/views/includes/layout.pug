@@ -1,0 +1,34 @@
+- const global = self.htmlWebpackPlugin.options.global
+- const pugName = self.htmlWebpackPlugin.options.pugName
+- const homeLayout = pugName === 'index'
+
+doctype html
+html(lang='es')
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  meta(charset='utf-8')
+  head
+    title #{pugName}
+  if homeLayout
+    script.
+      window.fakeData = '!{JSON.stringify(global.sampleData)}'
+    body(class='page__layout')
+      block header
+        include header
+        div(id='content', class='siteContent')
+          main
+            block content
+          aside
+            block aside
+      block footer
+        include footer
+  else
+    body(class='page__layout page__layout--bg')
+      block header
+        include header
+        div(id='content', class='siteContent')
+          main
+            block content
+          aside
+            block aside
+      block footer
+        include footer

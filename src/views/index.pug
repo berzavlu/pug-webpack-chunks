@@ -1,0 +1,9 @@
+extends includes/layout
+
+block content
+  h1.rojo vista index
+  article
+      section
+        ul
+          each item in global.sampleData.users
+            li #{item.name}
